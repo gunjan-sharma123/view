@@ -1,0 +1,14 @@
+{
+    "getmenudata":"/Api/TopMenu",
+    "getmenudatabyid":"/Api/TopMenu/",
+    "getfooter":"/api/lowerfooter",
+    "getfooterbyid":"/api/lowerfooter/",
+    "getbannerimage":"/api/Slider",
+    "getsliderimage":"/api/LogoSlider",
+    "gethomepage":"/api/Homemaster/",
+    "getwhatsnew":"/api/Whatsnew",
+    "getlink":"/api/Link",
+    "getreport":"/api/Reports",
+    "gettender":"/api/Tenders"
+    
+}
