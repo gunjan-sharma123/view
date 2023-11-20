@@ -319,7 +319,7 @@ a {
 	line-height: 70px;
 	text-transform:uppercase;
 	margin-bottom:20px;
-	height:61px;
+	height: 70px;
 	overflow:hidden;
 }
 .banner_btn{
@@ -372,7 +372,19 @@ a {
 	text-align:center;
 	margin:-220px auto;
 }
+
 /*slick slider start*/
+
+.slick-prev:hover
+{
+    background-color: #00245c !important;
+	border:1px solid #dfdfdf;
+}
+.slick-next:hover
+{
+    background-color: #00245c !important;
+	border:1px solid #dfdfdf;
+}
 .city_main_banner .slick-prev, 
 .city_main_banner .slick-next{
 	top:auto;
