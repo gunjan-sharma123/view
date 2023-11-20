@@ -196,7 +196,7 @@ export const TopHeader = ({ selectedLanguage, handleLanguageChange }) => {
                     <div>
                         <div >
                             <section class="top-b-section">
-                                <div class="container-fluid nav-con">
+                                <div class="container nav-con">
                                     <div class="top-bar-section">
                                         <div class="top-bar-lft">
                                             <p className="bdr-rgt">{currentDate}</p>

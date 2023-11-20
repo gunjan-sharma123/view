@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 export const Banner = () => {
 	const settings = {
-		dots: true,
+		dots: false,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 1,
@@ -17,27 +17,85 @@ export const Banner = () => {
 	  };
   return (
     <div>
-      <h2> Single Item</h2>
+			<div class="city_main_banner">
+				<div class="main-banner-slider">
+      <h2>slider </h2>
         <Slider {...settings}>
           <div>
-            <h3>1</h3>
+          <figure class="overlay">
+							<div class="video-container">
+								<video  autoplay="" muted="" loop="">
+									 <source src="images/wrpc33.mp4" type="video/mp4"/></video>
+							</div>
+							<div class="banner_text">
+								<div class="small_text animated">Welcome to</div>
+								<div class="medium_text animated">Western Regional Power</div>
+								<div class="large_text animated"><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+								<div class="banner_btn">
+									<a class="theam_btn animated" href="#">Read More</a>
+									<a class="theam_btn animated" href="#">Explore Now</a>
+								</div>
+								<div class="banner_search_form">
+									<label>Search Here</label>
+									<div class="banner_search_field animated">
+										<input type="text" placeholder="What  do you want to do"/>
+										<a href="#"><i class="fa fa-search"></i></a>
+									</div>
+								</div>
+							</div>
+						</figure>
           </div>
           <div>
-            <h3>2</h3>
+          <figure class="overlay">
+							<div class="video-container">
+								<video  autoplay="" muted="" loop="">
+									 <source src="images/wrpc22.mp4" type="video/mp4"/></video>
+							</div>
+							<div class="banner_text">
+								<div class="small_text animated">Welcome to</div>
+								<div class="medium_text animated">Western Regional Power</div>
+								<div class="large_text animated"> Committee</div>
+								<div class="banner_btn">
+									<a class="theam_btn animated" href="#">Read More</a>
+									<a class="theam_btn animated" href="#">Explore Now</a>
+								</div>
+								<div class="banner_search_form">
+									<label>Search Here</label>
+									<div class="banner_search_field animated">
+										<input type="text" placeholder="What  do you want to do"/>
+										<a href="#"><i class="fa fa-search"></i></a>
+									</div>
+								</div>
+							</div>
+						</figure>
           </div>
           <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
+          <figure class="overlay">
+							<div class="video-container">
+								<video autoplay="" muted="" loop="">
+									 <source src="images/wrpc.mp4" type="video/mp4"/></video>
+							</div>
+							<div class="banner_text">
+								<div class="small_text animated">Welcome to</div>
+								<div class="medium_text animated">Western Regional Power</div>
+								<div class="large_text animated">Committee</div>
+								<div class="banner_btn">
+									<a class="theam_btn animated" href="#">Read More</a>
+									<a class="theam_btn animated" href="#">Explore Now</a>
+								</div>
+								<div class="banner_search_form">
+									<label>Search Here</label>
+									<div class="banner_search_field animated">
+										<input type="text" placeholder="What  do you want to do"/>
+										<a href="#"><i class="fa fa-search"></i></a>
+									</div>
+								</div>
+							</div>
+						</figure>
           </div>
         </Slider>
-	</div>
+        </div>
+      </div>
+    </div>
   );
 }

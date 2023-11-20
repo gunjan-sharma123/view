@@ -8,6 +8,7 @@ a {
 }	
 .top-bar-rgt ul {
     margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 .wrapper{
@@ -379,6 +380,7 @@ a {
 	height:44px;
 	width:44px;
 	left:100px;
+	z-index: 1;
 }
 .city_main_banner .slick-next{
 	right:auto;
@@ -6015,7 +6017,7 @@ p.bdr-rgt {
 }
 .search-box {
     position: relative;
-    width: 190px;
+    width: 165px;
     height: 26px;
 	margin-right: 10px;
 }
@@ -6047,7 +6049,7 @@ p.bdr-rgt {
     z-index: 10;
     border-radius: 10px;
     border: none;
-    padding: 2px 6px;
+    padding: 0px 6px;
     cursor: pointer;
     background: #e1e3e4;
 }
@@ -6173,3 +6175,13 @@ di.wpml-ls-legacy-dropdown {
 h3.apg-album-title {
     font-weight: 600 !important;
 }
+.main-banner-slider h2 {
+    display: none !important;
+}
+.slick-prev {
+    background: white !important;
+}
+.slick-next {
+    background: white !important;
+}
+
