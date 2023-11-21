@@ -65,7 +65,7 @@ console.log(menuData, 'dsdsdfs');
 
   return (
     <>
-     <div className="main-sec2">
+<div className="main-sec2">
   <div className="container">
     <div className="row">
       <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
