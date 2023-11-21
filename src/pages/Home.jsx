@@ -12,7 +12,7 @@ import { menudata } from '../data/Menu'
 import { RootHtmlContent } from '../components/RootHtmlContent/RootHtmlContent';
 import ScrolltoTop from '../components/ScrollToTop/ScrolltoTop';
 import { Services } from '../components/Services/Services';
-import { Slider } from '../components/Slider/Slider';
+import  Slider  from '../components/Slider/Slider';
 import { Link, useNavigate } from 'react-router-dom';
 
 export const Home = (prop) => {
