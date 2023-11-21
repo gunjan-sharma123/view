@@ -41,19 +41,15 @@ console.log(menuData, 'dsdsdfs');
           slidesPerView: 2,
           spaceBetween: 20,
         },
-        // {
-        //   slidesPerView: 2,
-        //   spaceBetween: 20,
-        // },
-        480: {
+        767: {
           slidesPerView: 3,
           spaceBetween: 40,
         },
-        640: {
-          slidesPerView: 5,
+        992: {
+          slidesPerView: 4,
           spaceBetween: 80,
         },
-        992: {
+        1200: {
           slidesPerView: 6,
           spaceBetween: 50,
         },
