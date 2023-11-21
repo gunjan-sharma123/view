@@ -43,6 +43,7 @@ import { Link } from "react-router-dom";
       );
     }
   };
+  console.log(getContent, 'fgasfsags');
   
   // export default getContent;
   

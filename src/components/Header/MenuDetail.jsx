@@ -85,6 +85,7 @@ const MenuDetail = () => {
           Menuoptions.internal_link,
           Menuoptions.external_link
         )}
+        
       </div>
       <CmsFooter />
     </div>
