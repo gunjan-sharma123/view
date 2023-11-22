@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { getFooteroptins } from "../../Api/ApiFunctions"; // Import Bootstrap JS
 import HomeIcon from '@mui/icons-material/Home';
 
+
 export const CmsFooter = () => {
   const [extractedNumber, setExtractedNumber] = useState(null);
   
