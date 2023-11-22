@@ -14,6 +14,7 @@ import ScrolltoTop from '../components/ScrollToTop/ScrolltoTop';
 import { Services } from '../components/Services/Services';
 import  Slider  from '../components/Slider/Slider';
 import { Link, useNavigate } from 'react-router-dom';
+import { Aboutus } from '../components/AboutUs/Aboutus';
 
 export const Home = (prop) => {
     const navigate = useNavigate()
@@ -77,7 +78,8 @@ export const Home = (prop) => {
                 
                 </div>
                 <div >
-                    <RootHtmlContent />
+                    {/* <RootHtmlContent /> */}
+                  <Aboutus />
                 </div>
                 <div >
                     <Services />
